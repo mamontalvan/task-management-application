@@ -1,0 +1,71 @@
+{
+  "name": "nestjs-course-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.0",
+    "@mui/icons-material": "^5.14.0",
+    "axios": "^1.6.0",
+    "mobx": "^6.10.0",
+    "mobx-react": "^9.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.20.0",
+    "react-router-dom": "^6.20.0",
+    "react-scripts": "5.0.1",
+    "rxjs": "^7.8.0",
+    "sass": "^1.69.0",
+    "styled-components": "^6.1.0",
+    "typescript": "^5.3.0",
+    "query-string": "^8.1.0"
+  },
+  "scripts": {
+    "start": "cross-env PORT=3001 react-app-rewired start",
+    "build": "cross-env react-app-rewired build",
+    "test": "cross-env react-app-rewired test --env=jsdom",
+    "eject": "cross-env react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.0",
+    "@babel/plugin-proposal-decorators": "^7.18.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/styled-components": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "customize-cra": "^0.2.12",
+    "react-app-rewired": "^2.2.1"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "@babel/plugin-proposal-decorators",
+        {
+          "legacy": true
+        }
+      ],
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
+    ]
+  }
+}
