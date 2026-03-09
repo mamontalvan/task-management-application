@@ -92,9 +92,9 @@ STAGE=dev
 # Database Configuration
 DB_HOST=localhost
 DB_PORT=5432
-DB_USERNAME=postgres
-DB_PASSWORD=postgres
-DB_DATABASE=task_management
+DB_USERNAME=your-username
+DB_PASSWORD=your-pass
+DB_DATABASE=your-database-name
 
 # JWT Configuration
 JWT_SECRET=your-secret-key-change-this-in-production
